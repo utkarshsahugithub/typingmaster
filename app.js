@@ -45,7 +45,7 @@ function startTimer() {
        timerRunningFlag = true;
        interval =  setInterval(runTimer, 10);
     }
-    console.log(textEnteredLength);
+    // console.log(textEnteredLength);
 }
 
 function reset() {
