@@ -45,7 +45,6 @@ function startTimer() {
        timerRunningFlag = true;
        interval =  setInterval(runTimer, 10);
     }
-    // console.log(textEnteredLength);
 }
 
 function reset() {
@@ -55,7 +54,7 @@ function reset() {
     timerRunningFlag = false;
     typingTextBox.value = "";
     theTimer.innerHTML = "00:00:00";
-    typingTextBox.style.borderColour = "grey";
+    typingTextBox.style.borderColor = "grey";
 }
 typingTextBox.addEventListener("keypress", startTimer, false);
 typingTextBox.addEventListener("keyup", spellCheck, false);
